@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/resultCard"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="16dp"
+    app:cardCornerRadius="12dp"
+    app:cardElevation="6dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <!-- Exam Title -->
+        <TextView
+            android:id="@+id/tvExamTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Exam Title"
+            android:textSize="18sp"
+            android:textStyle="bold"/>
+
+        <!-- Marks -->
+        <TextView
+            android:id="@+id/tvObtainedMarks"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="8 / 10"
+            android:layout_marginTop="8dp"/>
+
+        <!-- Percentage -->
+        <TextView
+            android:id="@+id/tvPercentage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="80%"
+            android:layout_marginTop="8dp"/>
+
+        <!-- Status -->
+        <TextView
+            android:id="@+id/tvStatus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PASS"
+            android:textStyle="bold"
+            android:layout_marginTop="8dp"/>
+
+        <!-- BUTTONS (IMPORTANT FIX) -->
+        <Button
+            android:id="@+id/btnGoHome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Go to Dashboard"
+            android:layout_marginTop="16dp"/>
+
+        <Button
+            android:id="@+id/btnViewResults"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="View All Results"
+            android:layout_marginTop="8dp"/>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

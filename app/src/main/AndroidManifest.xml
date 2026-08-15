@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.OnlineExam"
+        android:forceDarkAllowed="false">
+
+        <activity
+            android:name=".SplashActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".LoginActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".RegisterActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".admin.AdminDashboardActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".admin.CreateExamActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".admin.ManageUsersActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".admin.AdminViewResultsActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".teacher.TeacherDashboardActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".teacher.AddQuestionsActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".teacher.ViewResultsActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".student.StudentDashboardActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".student.ExamListActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".student.TakeExamActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".student.ResultActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".student.MyResultsActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".student.ProfileActivity"
+            android:exported="false" />
+
+        <activity android:name=".teacher.ManageQuestionsActivity" />
+
+        <activity android:name=".student.EditProfileActivity"/>
+
+        <activity android:name=".admin.ManageSubjectsActivity" />
+
+
+    </application>
+
+</manifest>

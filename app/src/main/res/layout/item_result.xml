@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="12dp"
+    android:layout_marginVertical="8dp"
+    app:cardCornerRadius="16dp"
+    app:cardElevation="4dp"
+    app:cardBackgroundColor="#FFFFFF">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/tvStudentName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Student Name"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#2D3436"
+            android:fontFamily="sans-serif-medium"/>
+
+        <TextView
+            android:id="@+id/tvRollNo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Roll No: 00"
+            android:textSize="14sp"
+            android:textColor="#636E72"
+            android:paddingBottom="10dp"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#F1F1F1"
+            android:layout_marginBottom="12dp"/>
+
+        <TextView
+            android:id="@+id/tvExamTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Internal 1"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:textColor="#6200EE"/>
+
+        <TextView
+            android:id="@+id/tvScore"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Score: 18 / 30"
+            android:textSize="15sp"
+            android:textColor="#2D3436"
+            android:paddingTop="6dp"/>
+
+        <TextView
+            android:id="@+id/tvCorrect"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="60% — Pass"
+            android:textSize="13sp"
+            android:textColor="#757575"
+            android:paddingTop="4dp"/>
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

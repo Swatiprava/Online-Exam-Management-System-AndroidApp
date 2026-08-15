@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Original colors kept same (brand colors usually don't change) -->
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FFBB86FC</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FFFFFFFF</color>
+    <color name="white">#FF1E1E1E</color>
+    <color name="main_purple">#BB86FC</color>
+    <color name="light_purple">#2E2438</color>
+    <color name="bg_grey">#121212</color>
+    <color name="text_grey">#B0B0B0</color>
+    <color name="accent_green">#66BB6A</color>
+    <color name="soft_yellow">#4A4326</color>
+    <color name="orange_text">#FFB74D</color>
+
+    <!-- Card / surface backgrounds -->
+    <color name="surface_card">#1E1E1E</color>
+    <color name="screen_bg">#121212</color>
+
+    <!-- Text colors -->
+    <color name="text_dark">#EAEAEA</color>
+    <color name="text_on_header">#FFFFFF</color>
+    <color name="text_header_subtitle">#D1C4E9</color>
+    <color name="text_ticker">#FFD54F</color>
+
+    <!-- Icon / accent backgrounds -->
+    <color name="profile_icon_bg">#9575CD</color>
+    <color name="icon_bg_purple">#332B3D</color>
+    <color name="icon_bg_green">#1B3B22</color>
+
+    <!-- Utility -->
+    <color name="divider_color">#333333</color>
+    <color name="chevron_grey">#777777</color>
+
+    <!-- Login / Register screen colors (dark variants) -->
+    <color name="brand_blue">#64B5F6</color>
+    <color name="muted_grey">#AAAAAA</color>
+    <color name="input_text">#EAEAEA</color>
+    <color name="text_on_button">#0A1929</color>
+</resources>

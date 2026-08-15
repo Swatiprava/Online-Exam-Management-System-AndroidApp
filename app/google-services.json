@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "73382779520",
+    "project_id": "eamapp-cd22e",
+    "storage_bucket": "eamapp-cd22e.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:73382779520:android:01b5f016a5110ef3f26465",
+        "android_client_info": {
+          "package_name": "com.example.onlineexam"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAt44uXNThRMaJRTsA-cGLIOOrItx-gEzc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
